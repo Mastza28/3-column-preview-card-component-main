@@ -71,9 +71,8 @@ body {
     width: 50%;
     height: 50px;
     margin: auto;
+    cursor: pointer;
 }
-
-
 
 
 
@@ -84,4 +83,16 @@ body {
         max-width: 90%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
