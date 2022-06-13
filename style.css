@@ -19,6 +19,7 @@ h1 {
 .container {
     display: flex;
     flex-direction: row;
+    flex: 1;
     max-width: 1000px;
     height: 600px;
     justify-content: center;
@@ -52,6 +53,12 @@ h1 {
     border-radius: 30px;
 }
 
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border:3px solid hsl(0, 0%, 95%);
+}
+
 .suvs {
     background-color: hsl(184, 100%, 22%);
     display: flex;
@@ -73,6 +80,12 @@ h1 {
     border: none;
     width: 75%;
     border-radius: 30px;
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border:3px solid hsl(0, 0%, 95%);
 }
 
 .luxury {
@@ -97,6 +110,12 @@ h1 {
     border: none;
     width: 75%;
     border-radius: 30px;
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border:3px solid hsl(0, 0%, 95%);
 }
 
 .footer {
@@ -124,8 +143,10 @@ a {
     .container {
         flex-direction: column;
         margin-top: 50%;
+        padding-top: 20px;
         width: 90%;
-        margin-bottom: 50%;
+        max-width: 600px;
+        margin-bottom: 70%;
     }
     .sedans {
         border-radius: 10px 10px 0 0;
@@ -135,6 +156,12 @@ a {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .container {
+        margin-top: 300px;
+        margin-bottom: 500px;
+    }
+}
 
 
 
